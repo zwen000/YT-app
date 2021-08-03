@@ -9,7 +9,7 @@ class App extends React.Component {
   state = { videos: [], selectedVideo: null };
 
   componentDidMount() {
-    this.onTermSubmit('911');
+    this.onTermSubmit('错位时空');
   }
 
   onVideoSelect = (video) => {
